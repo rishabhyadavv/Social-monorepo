@@ -91,6 +91,8 @@
      - Includes `localhost.crt`, `localhost.key`, and `localhost.csr` for setting up HTTPS locally.
    - **Environment Variables**:
      - Sensitive information is stored in `.env` file.
+       PORT=?
+       HTTPS=true
      - Ensures secure handling of API keys and secrets.
 
 ---

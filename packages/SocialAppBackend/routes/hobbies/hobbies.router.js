@@ -1,5 +1,5 @@
 const express = require("express")
-const {httpGetAllHobbies,httpSaveHobby} = require("./hobbies.controller")
+const {httpGetAllHobbies,httpSaveHobby} = require("../../controllers/hobbies/hobbies.controller")
 const hobbiesRouter = express.Router()
 
 hobbiesRouter.get("/", httpGetAllHobbies)
