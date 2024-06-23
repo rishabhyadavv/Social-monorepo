@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install-server": "npm install --prefix SocialAppBackend",
+    "server": "npm run start --prefix SocialAppBackend",
+    "install-reactApp": "npm install --prefix SocialApp",
+    "reactApp": "npm run start --prefix SocialApp",
+    "deploy": "npm run build --prefix packages/SocialApp && npm start --prefix packages/SocialAppBackend"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.3"
+  }
+}

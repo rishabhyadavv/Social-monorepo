@@ -1,0 +1,11 @@
+/* src/App.css */
+.App {
+    text-align: center;
+  }
+  
+  .game-message {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: green;
+  }
+  

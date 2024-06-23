@@ -1,0 +1,34 @@
+/* src/CircularSelection.css */
+.selection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  .circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1.2em;
+    font-weight: bold;
+    user-select: none;
+  }
+  
+  .circle:hover {
+    background-color: #b0c4de;
+    transform: scale(1.1);
+  }
+  
+  .circle.selected {
+    background-color: lightblue;
+    transform: scale(1.1);
+  }
+  

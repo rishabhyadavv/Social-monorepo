@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "target": "es5",                          // Set the target JavaScript version
+      "lib": ["dom", "dom.iterable", "esnext"], // Specify the libraries to include in the compilation
+      "allowJs": true,                          // Allow JavaScript files to be compiled
+      "skipLibCheck": true,                     // Skip type checking of declaration files
+      "esModuleInterop": true,                  // Enable compatibility with CommonJS modules
+      "allowSyntheticDefaultImports": true,     // Allow default imports from modules with no default export
+      "strict": true,                           // Enable all strict type-checking options
+      "forceConsistentCasingInFileNames": true, // Ensure file imports are case-sensitive
+      "noFallthroughCasesInSwitch": true,       // Report errors for fallthrough cases in switch statements
+      "module": "esnext",                       // Specify the module code generation
+      "moduleResolution": "node",               // Use Node.js-style module resolution
+      "resolveJsonModule": true,                // Include modules imported with .json extension
+      "isolatedModules": true,                  // Ensure each file is compiled in isolation
+      "noEmit": true,                           // Do not emit output files
+      "jsx": "react-jsx",                        // Specify JSX code generation for React
+      "baseUrl": "./src/",
+      "types": [
+        "jest"
+      ],
+      "paths": {
+        "@components/*": [
+          "components/*"
+        ],
+        "@enums/*": [
+          "enums/*"
+        ],
+        "@styles/*": [
+          "styles/*"
+        ]
+      }
+    },
+    "include": ["src"]                          // Include files in the src directory
+  }
+  

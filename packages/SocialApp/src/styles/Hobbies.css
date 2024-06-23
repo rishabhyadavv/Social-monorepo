@@ -1,0 +1,19 @@
+/* src/dashboard/Dashboard.css */
+.dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hobbies-section {
+    margin-top: 20px;
+  }
+  
+  .hobbies-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hobbies-section li {
+    padding: 5px 0;
+  }
+  
